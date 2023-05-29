@@ -5,45 +5,39 @@ let menuArray = [];
 menuArray[0] = [];
 menuArray[0]['text'] = ["Home", "Introduction"];
 menuArray[0]['links'] = ["/", "/introduction/introduction"];
-menuArray[0]['img'] = "assets/introbutton.jpg";
-menuArray[0]['alt'] = "assets/introbutton2.jpg";
+menuArray[0]['img'] = "/assets/introbutton.jpg";
+menuArray[0]['alt'] = "/assets/introbutton2.jpg";
 menuArray[1] = [];
-menuArray[1]['text'] = ["Prologue", "Chapter 1: Serdian War", "Chapter 2: The Platinum Shadow", "Chapter 3: Fate and Soul", "Chapter 4: Moon and Fate"];
-menuArray[1]['links'] = ["/story/prologue", "/story/chapter1", "/story/chapter2", "/story/chapter3", "/story/chapter4"];
-menuArray[1]['img'] = "assets/storybutton.jpg";
-menuArray[1]['alt'] = "assets/storybutton2.jpg";
+menuArray[1]['text'] = ["Prologue", "Chapter 1: Serdian War", "Chapter 2: The Platinum Shadow", "Chapter 3: Fate and Soul", "Chapter 4: Moon and Fate", "Game Dialogue Scripts"];
+menuArray[1]['links'] = ["/story/prologue", "/story/chapter1", "/story/chapter2", "/story/chapter3", "/story/chapter4", "/scripts/script1"];
+menuArray[1]['img'] = "/assets/storybutton.jpg";
+menuArray[1]['alt'] = "/assets/storybutton2.jpg";
 menuArray[2] = [];
 menuArray[2]['text'] = ["Main Characters", "Other Characters"];
 menuArray[2]['links'] = ["/characters/main", "/characters/other"];
-menuArray[2]['img'] = "assets/charactersbutton.jpg";
-menuArray[2]['alt'] = "assets/charactersbutton2.jpg";
+menuArray[2]['img'] = "/assets/charactersbutton.jpg";
+menuArray[2]['alt'] = "/assets/charactersbutton2.jpg";
 menuArray[3] = [];
 menuArray[3]['text'] = ["Abnormalities", "Accessories", "Additions", "Art of Fighting", "Enemies", "Experience", "Items", "Item Locations", "Shopping", "Sidequests", "Special Items", "Stardust", "Stardust Picture Guide", "Team/Stat Evaluation", "Weapons/Armor", "Walkthrough"];
 menuArray[3]['links'] = ["/gamehelp/abnormalities", "/gamehelp/accessories", "/gamehelp/additions", "/gamehelp/fighting", "/gamehelp/enemies", "/gamehelp/experience", "/gamehelp/items", "/gamehelp/itemlocations", "/gamehelp/shopping", "/gamehelp/sidequests", "/gamehelp/specialitems", "/gamehelp/stardust", "/gamehelp/stardustpictureguide",
   "/gamehelp/teamstat", "/gamehelp/weaponsarmor", "/gamehelp/walkthrough"];
-menuArray[3]['img'] = "assets/gamehelpbutton.jpg";
-menuArray[3]['alt'] = "assets/gamehelpbutton2.jpg";
+menuArray[3]['img'] = "/assets/gamehelpbutton.jpg";
+menuArray[3]['alt'] = "/assets/gamehelpbutton2.jpg";
 menuArray[4] = [];
-menuArray[4]['text'] = ["Abnormalities", "Accessories", "Additions", "Art of Fighting", "Enemies", "Experience", "Items", "Item Locations", "Shopping", "Sidequests", "Special Items", "Stardust", "Stardust Picture Guide", "Team/Stat Evaluation", "Weapons/Armor", "Walkthrough"];
-menuArray[4]['links'] = ["/printables/abnormalities", "/printables/accessories", "/printables/additions", "/printables/fighting", "/printables/enemies", "/printables/experience", "/printables/items", "/printables/itemlocations", "/printables/shopping", "/printables/sidequests", "/printables/specialitems", "/printables/stardust",
-  "/printables/stardustpictureguide", "/printables/teamstat", "/printables/weaponsarmor", "/printables/walkthrough"];
-menuArray[4]['img'] = "assets/printablesbutton.jpg";
-menuArray[4]['alt'] = "assets/printablesbutton2.jpg";
+menuArray[4]['text'] = ["MIDIs", "MP3s", "Videos", "Voice Clips"];
+menuArray[4]['links'] = ["/media/midis", "/media/mp3s", "/media/videos", "/media/voiceclips"];
+menuArray[4]['img'] = "/assets/mediabutton.jpg";
+menuArray[4]['alt'] = "/assets/mediabutton2.jpg";
 menuArray[5] = [];
-menuArray[5]['text'] = ["MIDIs", "MP3s", "Videos", "Voice Clips"];
-menuArray[5]['links'] = ["/media/midis", "/media/mp3s", "/media/videos", "/media/voiceclips"];
-menuArray[5]['img'] = "assets/mediabutton.jpg";
-menuArray[5]['alt'] = "assets/mediabutton2.jpg";
-menuArray[6] = [];
-menuArray[6]['text'] = ["Contact", "Gallery", "Links In/Out", "Notes", "Voices/Lyrics", "Translations"];
-menuArray[6]['links'] = ["/etc/contact",
+menuArray[5]['text'] = ["Contact", "Gallery", "Links In/Out", "Notes", "Voices/Lyrics", "Translations"];
+menuArray[5]['links'] = ["/etc/contact",
   "/etc/imagegallery",
   "/etc/links",
   "/etc/notes",
   "/etc/voiceslyrics",
   "/etc/translations"];
-menuArray[6]['img'] = "assets/etcbutton.jpg";
-menuArray[6]['alt'] = "assets/etcbutton2.jpg";
+menuArray[5]['img'] = "/assets/etcbutton.jpg";
+menuArray[5]['alt'] = "/assets/etcbutton2.jpg";
 
 function showMenu(menuNumber) {
   let menuY = 0;

@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- This site was ripped and slightly modified from thelegendofdragoon.net on
+      the Wayback Machine (https://web.archive.org/web/*/thelegendofdragoon.net).
+
+      I love The Legend of Dragoon and wish to keep this content alive. I am also
+      planning on a complete rework, making it modern and adding much more.
+      Rehosted by Lavitz Starlove of Starscape Digital (https://github.com/astralvitz/)
+
+      Visit the main fansite at https://thelegendofdragoon.org and the Discord server!
+    -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>The Legend of Dragoon: Endiness, the Land of Dragoons!</title>
+
+  <meta name="author" content="Lavitz Starlove of Starscape Digital">
+  <meta name="description" content="A hub of info for The Legend of Dragoon, ripped from thelegendofdragoon.net">
+  <meta name="keywords" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="twitter:title" content="">
+  <meta property="twitter:description" content="">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="shortcut icon" href="/assets/lilspirit.jpg" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body class="">
+  <!-- layout-start.ejs -->
+  <table class="main" border="0" cellpadding="0" cellspacing="0" width="900px" height="700px">
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="160px">
+        <img name="splitter0" src="/assets/splitter_1x1.jpg">
+      </td>
+      <td width="638px" height="160px">
+        <img name="splitter1" src="/assets/splitter_1x2.jpg">
+      </td>
+    </tr>
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="72px">
+        <img name="splitter2" src="/assets/splitter_2x1.jpg" border="0">
+      </td>
+      <td width="638px" height="72px">
+        <img name="splitter3" src="/assets/splitter_2x2.jpg" border="0">
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top">
+        <div id="sidenav" name="menuDiv" class="menudiv">
+          <img src="/assets/buttontop.jpg">
+          <div id="menu0" class="navitem"><img id="image0" src="/assets/introbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(0);MouseOver(this, 0);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 0);}else{menuActive=true;showMenu(0);MouseOver(this, 0);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 0);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu1" class="navitem"><img id="image1" src="/assets/storybutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(1);MouseOver(this, 1);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 1);}else{menuActive=true;showMenu(1);MouseOver(this, 1);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 1);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu2" class="navitem"><img id="image2" src="/assets/charactersbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(2);MouseOver(this, 2);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 2);}else{menuActive=true;showMenu(2);MouseOver(this, 2);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 2);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu3" class="navitem"><img id="image3" src="/assets/gamehelpbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(3);MouseOver(this, 3);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 3);}else{menuActive=true;showMenu(3);MouseOver(this, 3);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 3);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu4" class="navitem"><img id="image4" src="/assets/mediabutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(4);MouseOver(this, 4);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 4);}else{menuActive=true;showMenu(4);MouseOver(this, 4);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 4);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu5" class="navitem"><img id="image5" src="/assets/etcbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(5);MouseOver(this, 5);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 5);}else{menuActive=true;showMenu(5);MouseOver(this, 5);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 5);}"></div>
+          <div id="popNav" class="popnav" border="60" style="position:absolute"></div>
+          <img src="/assets/buttonbottom.jpg">
+        </div>
+      </td>
+      <td rowspan="1" colspan="1" width="82" height="468" valign="top">
+        <img name="splitter5" src="/assets/splitter_3x2.jpg" width="82" height="468" border="0">
+      </td>
+      <td rowspan="1" colspan="1" width="638" height="468"
+        background="/web/20150224163944im_/http://www.thelegendofdragoon.net:80/bg.jpg" valign="top">
+
+        <!-- content -->
+        <h1 id="title">Image Gallery</h1>
+
+        <p>This is the Endiness Image Gallery, where you can look at screenshots from the game. The images came from a
+          variety of sources whom I give credit to at my Links page.</p>
+
+        <p><s>Have fun!</s> <span class="bruce">((I do not have the original files, so these links do not work))</span>
+        </p>
+
+        <h2>Dart</h2>
+        <ul>
+          <li>Dart's Character Picture</li>
+          <li>Dart's Profile</li>
+          <li>A nice picture of Dart</li>
+          <li>Dart in the game intro 1</li>
+          <li>Dart in the game intro 2</li>
+          <li>Dart in the game intro 3</li>
+          <li>Dart on the ground</li>
+          <li>Dart gazing</li>
+          <li>Dart yelling with his sword</li>
+          <li>Dart kneeling with his sword</li>
+          <li>Dart looking up</li>
+          <li>Dart in Vellweb</li>
+          <li>Dart at the Fueno Inn</li>
+          <li>Dart near a save point in Mayfil</li>
+          <li>Dart crossing the bridge in the Prairie</li>
+          <li>Dart standing on a hill, looking at Seles</li>
+          <li>Dart fighting Feyrbrand</li>
+          <li>Dart with the Dragon Block Staff</li>
+          <li>Dart in Seles</li>
+          <li>Dart in Seles again</li>
+          <li>Dart in the Dragon's Nest</li>
+          <li>Dart sitting and pondering</li>
+          <li>Dart talking in Seles</li>
+          <li>Dart being attacked by the Commander</li>
+          <li>Dart attacking the Commander</li>
+          <li>Dart healing himself</li>
+          <li>Dart is about to fight!</li>
+          <li>Dart attacking</li>
+          <li>Dart defeats an enemy</li>
+          <li>Dart is about to fight again!</li>
+          <li>Dart using an Addition</li>
+          <li>Dart using an Addition again</li>
+          <li>Dart trying to avoid a Counter Attack</li>
+          <li>Dart attacking Doel</li>
+          <li>Dart's victory stance</li>
+          <li>Dart transforming into the Divine Dragoon</li>
+          <li>Divine Dragoon Dart with his sword</li>
+          <li>Dart as the Divine Dragoon!</li>
+          <li>Divine Dragoon Dart about to cast his cannon</li>
+          <li>Divine Dragoon Dart in the dust</li>
+          <li>Divine Dragoon Dart "sleeping"</li>
+          <li>Divine Dragoon Dart yeling</li>
+          <li>Divine Dragoon Dart looking back</li>
+          <li>Divine Dragoon Dart posing</li>
+          <li>Divine Dragoon Dart flying</li>
+          <li>Dart finishes transforming for the first time</li>
+          <li>Dart finishes transforming for the first time 2</li>
+          <li>Red-Eye Dragoon Dart casting Flameshot</li>
+          <li>Red-Eye Dragoon Dart attacking</li>
+          <li>Red-Eye Dragoon Dart practicing with Rose</li>
+          <li>Red-Eye Dragoon Dart attacking Dragoon Doel</li>
+          <li>Red-Eye Dragoon Dart casting Final Burst</li>
+          <li>Red-Eye Dragoon Dart casting Final Burst 2</li>
+          <li>Redy-Eye Dragoon Dart wins!</li>
+          <li>Red-Eye Dragoon Dart fighting Lenus</li>
+          <li>Red-Eye Dragoon Dart attacking Doel</li>
+          <li>Red-Eye Dragoon Dart's fiery attack</li>
+          <li>Red-Eye Dragoon Dart finishes his fiery attack</li>
+          <li>Red-Eye Dragoon Dart preparing to attack</li>
+          <li>Red-Eye Dragoon Dart preparing a magic attack</li>
+          <li>Large Red-Eye Dragoon Dart</li>
+          <li>Tall Red-Eye Dragoon Dart</li>
+          <li>Dart transforming 1</li>
+          <li>Dart transforming 2</li>
+          <li>Dart transforming 3</li>
+          <li>Dart transforming 4</li>
+          <li>Dart transforming 5</li>
+          <li>Dart transforming 6</li>
+          <li>Dart transforming 7</li>
+          <li>Dart transforming 8</li>
+          <li>Dart transforming 9</li>
+          <li>Dart transforming 10</li>
+          <li>Dart the Action Figure!</li>
+        </ul>
+
+        <h2>Rose</h2>
+        <ul>
+          <li>Rose's Character Picture</li>
+          <li>Rose's official profile</li>
+          <li>A large picture of Rose</li>
+          <li>Rose in Vellweb 1</li>
+          <li>Rose in Vellweb 2</li>
+          <li>Rose in Vellweb 3</li>
+          <li>Rose in Hoax 1</li>
+          <li>Rose in Hoax 2</li>
+          <li>Rose in Hoax 3</li>
+          <li>Rose in the Volcano</li>
+          <li>Rose yelling out</li>
+          <li>Rose with her sword</li>
+          <li>Rose running</li>
+          <li>Rose on a cliff 1</li>
+          <li>Rose on a cliff 2</li>
+          <li>Rose sees a dragon</li>
+          <li>Rose looking at Feyrbrand</li>
+          <li>Rose attacking</li>
+          <li>Rose attacking Faust</li>
+          <li>Dark Dragoon Rose awakening Dart's Dragoon Spirit</li>
+          <li>Dark Dragoon Rose attacking</li>
+          <li>Dark Dragoon Rose finishing an attack</li>
+          <li>Dark Dragoon Rose using magic</li>
+          <li>Dark Dragoon Rose's victory stance</li>
+          <li>Dark Dragoon Rose's victory stance 2</li>
+          <li>Dark Dragoon Rose casting Astral Drain</li>
+          <li>Dark Dragoon Rose casting Death Dimension</li>
+          <li>Dark Dragoon Rose finishing Astral Drain</li>
+          <li>Dark Dragoon Rose zooming away</li>
+          <li>Dark Dragoon Rose covering her face</li>
+          <li>Dark Dragoon Rose gazing</li>
+          <li>Dark Dragoon looking back</li>
+          <li>Dark Dragoon Rose reaching out</li>
+          <li>Sparkling Dark Dragoon Rose</li>
+          <li>Dark Dragoon Rose on a white background</li>
+          <li>Dark Dragoon Rose looking down</li>
+          <li>Large Dark Dragoon Rose</li>
+          <li>Rose transforming 1</li>
+          <li>Rose transforming 2</li>
+          <li>Rose transforming 3</li>
+          <li>Rose the Action Figure!</li>
+        </ul>
+
+        <h2>Lavitz</h2>
+        <ul>
+          <li>Lavitz' Character Picture</li>
+          <li>Lavitz' official profile</li>
+          <li>Lavitz attacking</li>
+          <li>Lavitz attacking Guftas</li>
+          <li>Lavitz attacking Feyrbrand</li>
+          <li>Lavitz finishing off an enemy</li>
+          <li>Lavitz attacking Fruegal</li>
+          <li>Jade Dragoon Lavitz is angry!</li>
+          <li>Jade Dragoon Lavitz getting ready to use magic</li>
+          <li>Jade Dragoon Lavitz preparing to attack</li>
+          <li>Jade Dragoon Lavitz on a white background</li>
+          <li>Tall Jade Dragoon Lavitz</li>
+          <li>Small Jade Dragoon Lavitz</li>
+          <li>Large Jade Dragoon Lavitz</li>
+          <li>Lavitz the Action Figure!</li>
+        </ul>
+        <h2>Shana</h2>
+        <ul>
+          <li>Shana's Character Picture</li>
+          <li>Shana's official profile</li>
+          <li>Shana waking up in Vellweb</li>
+          <li>Shana looking worried</li>
+          <li>A familiar picture of Shana</li>
+          <li>Shana in Seles</li>
+          <li>Shana lying in Vellweb</li>
+          <li>White Silver Dragoon Shana with her bow</li>
+          <li>White Silver Dragoon Shana casting Moonlight</li>
+          <li>White Silver Dragoon Shana casting Moonlight 2</li>
+          <li>White Silver Dragoon Shana casting Star Children</li>
+          <li>White Silver Dragoon Shana using her bow</li>
+          <li>White Silver Dragoon Shana on a sparkling background</li>
+          <li>Shana transforming 1</li>
+          <li>Shana transforming 2</li>
+          <li>Shana transforming 3</li>
+          <li>Shana the Action Figure!</li>
+        </ul>
+        <h2>Haschel</h2>
+        <ul>
+          <li>Haschel's Character Picture</li>
+          <li>Haschel attacking Lenus</li>
+          <li>Haschel transforms</li>
+        </ul>
+        <h2>Kongol</h2>
+        <ul>
+          <li>Kongol's Character Picture</li>
+          <li>Kongol's Official Profile</li>
+          <li>Kongol in the Land of Giganto</li>
+          <li>Bad Kongol attacks!</li>
+          <li>Kongol the Action Figure!</li>
+        </ul>
+        <h2>Albert</h2>
+        <ul>
+          <li>Albert's character picture</li>
+          <li>Albert attacks</li>
+          <li>A full-body picture of the handsome Albert</li>
+          <li>Jade Dragoon Albert on a sparkling background</li>
+          <li>Jade Dragoon Albert casting Wing Blaster</li>
+          <li>Jade Dragoon Albert finishes transforming</li>
+          <li>Jade Dragoon Albert casting Rose Storm 1</li>
+          <li>Jade Dragoon Albert casting Rose Storm 2</li>
+        </ul>
+        <h2>Meru</h2>
+        <ul>
+          <li>Meru's character picture</li>
+          <li>Meru's official profile</li>
+          <li>Meru posing</li>
+          <li>Meru looking down</li>
+          <li>Blue Sea Dragoon Meru casting Freezing Ring</li>
+          <li>Blue Sea Dragoon Meru casting Freezing Ring 2</li>
+          <li>Blue Sea Dragoon Meru casting Freezing Ring 3</li>
+          <li>Blue Sea Dragoon Meru casting Rainbow Breath 1</li>
+          <li>Blue Sea Dragoon Meru casting Rainbow Breath 2</li>
+          <li>Blue Sea Dragoon Meru casting Rainbow Breath 3</li>
+          <li>Blue Sea Dragoon Meru casting Rainbow Breath 4</li>
+          <li>Blue Sea Dragoon Meru casting Rainbow Breath 5</li>
+          <li>Blue Sea Dragoon Meru casting Rainbow Breath 6</li>
+          <li>Blue Sea Dragoon Meru casting Rainbow Breath 7</li>
+          <li>Blue Sea Dragoon Meru casting Rainbow Breath 8</li>
+          <li>Blue Sea Dragoon Meru casting Diamond Dust 1</li>
+          <li>Blue Sea Dragoon Meru casting Diamond Dust 2</li>
+          <li>Blue Sea Dragoon Meru casting Diamond Dust 3</li>
+          <li>Meru transforms 1</li>
+          <li>Meru transforms 2</li>
+          <li>Meru transforms 3</li>
+        </ul>
+        <h2>Miranda</h2>
+        <ul>
+          <li>Miranda yelling</li>
+          <li>Miranda yelling 2</li>
+          <li>Miranda in the Rainbow Light</li>
+          <li>Miranda in the Crystal Palace</li>
+          <li>A rare picture of Miranda with her bow</li>
+          <li>White Silver Dragoon Miranda outside the Moon 1</li>
+          <li>White Silver Dragoon Miranda outside the Moon 2</li>
+          <li>White Silver Dragoon Miranda outside the Moon 3 (just slightly different from the one above)</li>
+          <li>White Silver Dragoon Miranda oustide the Moon 4</li>
+          <li>White Silver Dragoon Miranda outside the Moon 5</li>
+          <li>White Silver Dragoon Miranda inside the Moon 1</li>
+          <li>White Silver Dragoon Miranda inside the Moon 2</li>
+          <li>White Silver Dragoon Miranda casting Moonlight 1</li>
+          <li>White Silver Dragoon Miranda casting Moonlight 2</li>
+          <li>White Silver Dragoon Miranda casting Moonlight 3</li>
+          <li>White Silver Dragoon Miranda casting Star Children</li>
+          <li>White Silver Dragoon Miranda casting Gates of Heaven 1</li>
+          <li>White Silver Dragoon Miranda casting Gates of Heaven 2</li>
+          <li>Miranda transforms 1</li>
+          <li>Miranda transforms 2</li>
+          <li>Miranda transforms 3</li>
+          <li>Miranda transforms 4</li>
+          <li>Miranda transforms 5</li>
+          <li>Miranda transforms 6</li>
+          <li>Miranda transforms 7</li>
+          <li>Miranda transforms 8</li>
+        </ul>
+        <h2>Lloyd</h2>
+        <ul>
+          <li>Lloyd's Character Picture</li>
+          <li>Lloyd's official profile</li>
+          <li>A handsome picture of Lloyd</li>
+          <li>Lloyd charging</li>
+          <li>Lloyd casting a spell</li>
+          <li>Lloyd is escaping!</li>
+          <li>Lloyd posing</li>
+          <li>Lloyd as the Hooded Man</li>
+          <li>Lloyd the Action Figure!</li>
+        </ul>
+        <h2>Group Pictures</h2>
+        <ul>
+          <li>Dart, Rose, and Shana as Dragoons</li>
+          <li>Dart, Rose, and Shana in Furni</li>
+          <li>Dragoons Dart, Shana, Rose, Lavitz, Haschel, and The Hooded Man</li>
+          <li>Dart, Shana, Haschel, Miranda, Kongol, and Meru as Dragoons</li>
+          <li>Commander and the Hooded Man 1</li>
+          <li>Commander and the Hooded Man 2</li>
+          <li>Commander and the Hooded Man 3</li>
+          <li>Dart and Rose in Vellweb</li>
+          <li>Dart, Kongol, and Meru on Coolon 1</li>
+          <li>Dart, Kongol, and Meru on Coolon 2</li>
+          <li>Rose and Zieg in the Moon</li>
+          <li>Dart flying to save Shana</li>
+          <li>Kongol, Meru, Albert, and Haschel as Dragoons</li>
+          <li>Rose and Zieg flying with the Dragon Buster</li>
+          <li>Rose and Zieg falling into the white light</li>
+          <li>Kongol holding Meru as Dragoons</li>
+          <li>Shana, Dart, and Lavitz fighting Urobolus 1</li>
+          <li>Shana, Dart, and Lavitz fighting Urobolus 2</li>
+          <li>Rose, Shana, Dart, and Lavitz in Volcano Villude</li>
+          <li>Rose, Shana, Dart, and Lavitz attacking Feyrbrand</li>
+          <li>Rose, Shana, Dart, and Lavitz attacking Fruegal 1</li>
+          <li>Rose, Shana, Dart, and Lavitz attacking Fruegal 2</li>
+          <li>A close up of Rose, Shana, Dart, and Lavitz preparing to fight</li>
+          <li>Dart, Lavitz, and Shana fighting Urobolous (battle screen)</li>
+          <li>Dart, Lavitz, and Rose in a Jade Dragoon Special</li>
+          <li>Dart, Rose, and Lavitz fighting in the Dragon's Nest</li>
+          <li>Dragoon Dart, Rose, and Lavitz fighting Feyrbrand</li>
+          <li>Dart, Lavitz, and Rose fighting Feyrbrand 2</li>
+          <li>Greham attacking Dart</li>
+          <li>Shana, Dart, and Lavitz in a White Silver Dragoon Special</li>
+          <li>Albert, Dart, and Rose fighting Doel</li>
+          <li>Albert, Dart, and Rose as Dragoons</li>
+          <li>Albert, Dart, and Rose attacking Regole and Lenus</li>
+          <li>Lloyd attacking Kongol, Albert, and Dart</li>
+          <li>Dart, Albert, and Rose in Vellweb</li>
+          <li>Dart, Albert, and Rose in Vellweb 2</li>
+          <li>Albert, Kongol, and Dart attacking Melbu Frahma</li>
+          <li>Lavitz, Rose, and Dart in a Red-Eye Dragoon Special</li>
+          <li>Lavitz, and Rose and Dart as Dragoons</li>
+          <li>Dark Dragoon Rose casting Astral Drain on Lavitz and Dart</li>
+          <li>Red-Eye Dragoon Dart casting magic with Rose and Lavitz</li>
+          <li>Dart and Lavitz being healed by Astral Drain</li>
+          <li>Lavitz, Dart, and Shana in a White Silver Dragoon Special</li>
+          <li>Dart and Lavitz gaping in awe</li>
+          <li>Rose, Dart, and Lavitz in Hoax</li>
+          <li>Lavitz, Dart, and Rose in Hellena</li>
+          <li>Dart holding Lavitz as he dies 1</li>
+          <li>Dart holding Lavitz as he dies 2</li>
+          <li>Albert and Dart in Black Castle Kazas 1</li>
+          <li>Albert and Dart in Black Castle Kazas 2</li>
+          <li>Rose and Dart in the Barrens</li>
+          <li>Shana and Meru looking up</li>
+          <li>Kongol saving Albert from a pillar</li>
+          <li>Dart, Shana, and Meru looking on as Lenus dies</li>
+          <li>Dart, Shana, and Meru looking sad</li>
+          <li>Wink saves Lloyd</li>
+          <li>Dart and Rose with their Dragoon Spirits, Lavitz and Shana look on</li>
+          <li>Dart, Shana, Rose, and Lavitz with Greham as he dies</li>
+          <li>Rose, Dart, and Lavitz with their Dragoon Spirits in Shirely Shrine 1</li>
+          <li>Rose, Dart, and Lavitz with their Dragoon Spirits in Shirely Shrine 2</li>
+          <li>Rose, Lavitz, and Dart with the Red-Eye and White Silver Dragoon Spirits, with Shirley and Drake</li>
+          <li>Dart, Lavitz, Rose, and Shana with their Dragoon Spirits</li>
+          <li>Albert holding the Jade Dragoon Spirit, with Dart holding a dead Lavitz, and Rose and Shana looking on
+          </li>
+          <li>Dart and Mappi race for the Red-Eye Dragoon Spirit</li>
+          <li>Dart and Rose hiding from Feyrbrand</li>
+          <li>Dart threatening the Commander and his guards</li>
+          <li>Dart, Shana, and Lavitz in the Limestone Cavern</li>
+          <li>Dart, Shana, and Lavitz in the Prairie</li>
+          <li>Dart, Shana, and Laviz in the shack</li>
+          <li>Dart, Lloyd, Shana, Diaz, Rose, and Albert in Vellweb (Spanish)</li>
+          <li>Diaz, Shana, Rose, Dart, and Albert in Vellweb (Spanish)</li>
+          <li>Dart and Shana as youngins</li>
+          <li>Lavitz, Dart, and some guards in Hellena</li>
+          <li>Lavitz, Dart, and Shana in the shack 2</li>
+          <li>Shana watching Dart and Lavitz acting like idiots</li>
+          <li>Lavitz and Dart protecting Hoax from Kongol and his guards</li>
+          <li>Dart, Lavitz, Rose, and Shana in a ransacked Hoax 1</li>
+          <li>Dart, Lavitz, Rose, and Shana in a ransacked Hoax 2</li>
+          <li>Dart, Rose, Lavitz, and Shana looking out over Volcano Villude</li>
+          <li>Dart, Rose, Shana, Albert, and Haschel in Fletz</li>
+          <li>Dart, Kongol, Meru, Rose, Shana, Albert, and Haschel in the Twin Castles</li>
+          <li>Lisa, Albert, Haschel, Shana, Dart, and Rose in a secret chamber</li>
+          <li>Lisa, King Zoir, Emille, Dart, and Albert in the Sun Chamber</li>
+          <li>The entire group in Aglis</li>
+          <li>Dart's flashback of himself and his mom and dad</li>
+        </ul>
+
+        <h1>Miscellaneous</h1>
+        <h2>Logos</h2>
+        <ul>
+          <li>The Official Logo</li>
+          <li>All Character Logo (Large)</li>
+          <li>All Character Logo</li>
+          <li>All Character Logo (small)</li>
+          <li>Everyone on Coolon Logo</li>
+          <li>The Red-Eye Dragoon Logo</li>
+          <li>The Dragon Campaign Logo</li>
+          <li>Dart, Shana, and Rose in Furni Logo</li>
+          <li>The Logo at the beginning of the game</li>
+          <li>The Ghost Ship Logo</li>
+          <li>The Japanese Logo</li>
+          <li>The Second Japenese Logo</li>
+          <li>The Melbu Frahma Logo</li>
+          <li>Dart, Shana, and Rose on the Queen Fury logo</li>
+          <li>The Darkness Dragoon Logo</li>
+          <li>Shana's Logo</li>
+          <li>The White Silver Dragoon Logo</li>
+          <li>Logo with the Dragoon Spirits</li>
+          <li>The Title Screen Logo</li>
+          <li>The Divine Tree Logo</li>
+        </ul>
+        <ul>
+          <li>Zieg</li>
+          <li>Evil Zieg</li>
+          <li>Another Evil Zeig</li>
+          <li>Good Zieg</li>
+        </ul>
+        <h2>Melbu Frahma</h2>
+        <ul>
+          <li>Melbu Frahma is UGLY!!</li>
+          <li>Another ugly picture of Melbu Frahma</li>
+        </ul>
+        <h2>Moon That Never Sets and the Divine Tree</h2>
+        <ul>
+          <li>The Moon is falling!</li>
+          <li>The Moon has set</li>
+          <li>The Divine Tree</li>
+          <li>The Divine Tree sprouting</li>
+          <li>The Divine Tree glowing</li>
+          <li>The Divine Tree exploding out of the ground</li>
+          <li>The Moon and the Divine Tree 1</li>
+          <li>The Moon and the Divine Tree 2</li>
+          <li>The Moon with Virage emerging on the Divine Tree</li>
+        </ul>
+        <h2>The Divine Dragon</h2>
+        <ul>
+          <li>The Divine Dragon flying</li>
+          <li>The Divine Dragon glancing</li>
+          <li>The Divine Dragon in Deningrad</li>
+          <li>The Divine Dragon glancing again</li>
+          <li>The Divine Dragon crashing into the Crystal Palace</li>
+          <li>The Divine Dragon Ball 1</li>
+          <li>The Divine Dragon Light</li>
+          <li>The Divine Dragon has sharp teeth</li>
+          <li>The Divine Dragon is HUGE!</li>
+          <li>The Divine Dragon spitting</li>
+          <li>The Divine Dragon Ball 2</li>
+          <li>The Divine Dragon Ball is warming up!</li>
+          <li>The Divine Dragon's Eye</li>
+        </ul>
+        <h2>The Dragon Campaign</h2>
+        <ul>
+          <li>All out attack!</li>
+          <li>A dragon zooming at full speed</li>
+          <li>A dragon flying</li>
+          <li>The dragon flying again</li>
+          <li>The dragon zooming again</li>
+          <li>The dragon prepares to attack</li>
+          <li>Michael's Dark Cannon</li>
+          <li>The martyr Kanzaz</li>
+          <li>The Virage with Kanzaz</li>
+          <li>A fiery explosion</li>
+          <li>A friend saving Rose</li>
+          <li>Rose dodging rocks</li>
+          <li>Kadessa</li>
+          <li>A clinging Virage</li>
+          <li>Belzac saving Shirley</li>
+          <li>Shirley talking with Belzac 1</li>
+          <li>Shirley talking with Belzac 2</li>
+          <li>Shirley preparing an arrow 1</li>
+          <li>Shirley preparing an arrow 2</li>
+          <li>Shirley fires her arrow</li>
+          <li>Shirley kills the Virage</li>
+          <li>Rose zooming</li>
+          <li>Zieg zooming</li>
+          <li>Zieg and Melbu Frahma fighting</li>
+          <li>Zieg and Melbu Frahma fighting again</li>
+        </ul>
+        <h2>Lenus</h2>
+        <ul>
+          <li>Lenus</li>
+          <li>Lenus in the Sun Chamber</li>
+          <li>Lenus using magic</li>
+          <li>Lenus the Blue Sea Dragoon</li>
+          <li>Another picture of Blue Sea Dragoon Lenus</li>
+        </ul>
+        <h2>Emperor Doel</h2>
+        <ul>
+          <li>Emperor Doel transforms</li>
+          <li>Emperor Doel and his swords of Light and Darkness</li>
+          <li>Emperor Doel using Magic</li>
+          <li>Emperor Doel is defeated</li>
+          <li>Emperor Doel is dying</li>
+        </ul>
+        <h2>The Commander</h2>
+        <ul>
+          <li>The Commander</li>
+          <li>Another pic of the Commander</li>
+          <li>The Commander is coming!</li>
+        </ul>
+        <h2>Coolon</h2>
+        <ul>
+          <li>Coolon in the sky</li>
+          <li>Coolon is hit!</li>
+        </ul>
+        <h2>Virage</h2>
+        <ul>
+          <li>Virage Emerging</li>
+          <li>More Virage</li>
+          <li>A glowing virage</li>
+          <li>A weird virage</li>
+          <li>A sketchy virage</li>
+        </ul>
+        <h2>Others</h2>
+        <ul>
+          <li>Houses on fire in Seles</li>
+          <li>Firey arrows assault Seles</li>
+          <li>A charge into Seles</li>
+          <li>The church is Seles is about to explode</li>
+          <li>The church in Seles explodes</li>
+          <li>Smoke rises in Seles</li>
+          <li>A boy helps an old man</li>
+          <li>Chargers attack</li>
+          <li>Broken statues</li>
+          <li>Broken fountains</li>
+          <li>Seles aftermath</li>
+          <li>Forest 1</li>
+          <li>Forest 2</li>
+          <li>Forest 3</li>
+          <li>Forest 4</li>
+          <li>Forest 5</li>
+          <li>Hellena Prison</li>
+          <li>Escaping Hellena Prison</li>
+          <li>A bridge in Hellena Prison</li>
+          <li>The entrance of Hellena Prison</li>
+          <li>Hitching a ride in Hellena Prison</li>
+          <li>Sneaking into Hellena Prison</li>
+          <li>The elevator in Hellena Prison</li>
+          <li>The closed gate to Hellena Prison</li>
+          <li>Killing the guards of Hellena Prison</li>
+          <li>Lavitz meets Dart in Hellena Prison</li>
+          <li>Lavitz and Dart team up in Hellena Prison</li>
+          <li>Bale 1</li>
+          <li>Bale 2</li>
+          <li>Indels Castle</li>
+          <li>The entrance to Shirley's Shrine</li>
+          <li>The ride in Shirely Shrine 1</li>
+          <li>The ride in Shirely Shrine 2</li>
+          <li>Inside the Black Castle in Kazas</li>
+          <li>Fletz at night</li>
+          <li>The Valley of Corrupted Gravity 1</li>
+          <li>The Valley of Corrupted Gravity 2</li>
+          <li>The Land of Gigantos</li>
+          <li>The same as above only smaller</li>
+          <li>The Queen Fury</li>
+          <li>The Ghost Ship Commeth</li>
+          <li>The skull on the Ghost Ship</li>
+          <li>Here comes the Ghost Ship!</li>
+          <li>Sailors running around</li>
+          <li>"SMASH!!!"</li>
+          <li>Fueno</li>
+          <li>The Prison Island/Sea Cavern 1</li>
+          <li>The Prison Island/Sea Cavern 2</li>
+          <li>The Water City of Furni</li>
+          <li>The city of Deningrad</li>
+          <li>The Crystal Palace crumbling</li>
+          <li>The Crystal Palace getting zapped</li>
+          <li>The city is falling</li>
+          <li>The Church in Deningrad</li>
+          <li>The Forbidden Land 1</li>
+          <li>The same as above, but different colors</li>
+          <li>The same as above, only smaller</li>
+          <li>The Forbidden Land 2</li>
+          <li>The same as above, only smaller</li>
+          <li>The Mountain of Mortal Dragon</li>
+          <li>Kashua Glacier</li>
+          <li>Zenebatos 1</li>
+          <li>Zenebatos 2</li>
+          <li>Zenebatos 3</li>
+          <li>The Death City Mayfil</li>
+          <li>Feyrbrand chasing Dart</li>
+          <li>A nice picture of Feyrbrand</li>
+          <li>Something flying in the dusk</li>
+          <li>Fruegal fighting</li>
+          <li>Fruegal speaking</li>
+          <li>A man on his...horse?</li>
+          <li>Emperor Diaz rising</li>
+          <li>Emperor Diaz is coming closer</li>
+          <li>Guaraha</li>
+          <li>A rider</li>
+          <li>A Sandoran Guard</li>
+          <li>Selebus the Executioner</li>
+          <li>The game disks</li>
+          <li>Shana's disk</li>
+          <li>Summoning the Red-Eye Dragon 1</li>
+          <li>Summoning the Red-Eye Dragon 2</li>
+          <li>A large map of Endiness</li>
+          <li>A map of Endiness</li>
+          <li>A Fruit from the Divine Tree</li>
+          <li>A huge explosion!</li>
+          <li>The full instruction book cover</li>
+          <li>Dart's side of the instruction book cover</li>
+          <li>Germany's LoD game cover</li>
+          <li>Legend of Dragoon Action Figures! Collect them all!</li>
+          <li>Another look at Germany's Game cover</li>
+          <li>LoD notebook (not for sale!) :(</li>
+          <li>A black and white picture of Rose at Fort Magrad</li>
+          <li>The LoD OST cover</li>
+          <li>The Legend of Dragoon Booth at a trade show</li>
+          <li>An artist working on Shana</li>
+          <li>Dart for the Trade Show</li>
+          <li>Shana for the Trade Show</li>
+          <li>A menu screen</li>
+          <li>The opening screen (Japanese?)</li>
+          <li>The title screen</li>
+          <li>An overworld Map</li>
+          <li>Another Overworld Map</li>
+          <li>The cover to Prima's official guide</li>
+          <li>A rare quartet picture</li>
+          <li>The Dragon Campaign Story 1</li>
+          <li>The Dragon Campaign Story 2</li>
+          <li>The Dragon Campaign Story 3</li>
+          <li>The Moon Child Story 1</li>
+          <li>The Moon Child Story 2</li>
+        </ul>
+        <h2>Images from the Japanese game!</h2>
+        <p>Note: These are NOT the real translations</p>
+        <ul>
+          <li>Dart and Shana</li>
+          <li>Rose and the Hooded Man</li>
+          <li>Japanese game cover 1</li>
+          <li>Japanese game cover 2</li>
+          <li>Japanese Menu 1</li>
+          <li>Japanese Menu 2</li>
+          <li>Japanese Menu 3</li>
+          <li>Japanese Menu 4</li>
+          <li>Japanese Menu 5</li>
+          <li>Japanese Menu 6</li>
+          <li>Japanese Menu 7</li>
+          <li>Japanese Menu 8</li>
+          <li>Japanese Menu 9</li>
+          <li>Japanese Menu 10</li>
+          <li>Japanese battle screen 1</li>
+          <li>Japanese battle screen 2</li>
+          <li>"Like my horse?"</li>
+          <li>"Oops, I'm such a klutz..."</li>
+          <li>"Crap! A dragon!"</li>
+          <li>Japanese Overworld Map 1</li>
+          <li>Japanese Overworld Map 2</li>
+          <li>"I point my sword at you!"</li>
+          <li>"Now bow to me!"</li>
+          <li>"Dude, I'm Dragoon!"</li>
+          <li>"Wings....just aren't your style...."</li>
+          <li>Dart faints</li>
+          <li>"SHINIES!!"</li>
+          <li>"Not so loud, fool..."</li>
+          <li>"Damn, this place fell out of an ugly tree and hit every branch on the way down..."</li>
+          <li>"He got sick because he ate all of the food..."</li>
+          <li>"By the way, I think that man over there with the silver hair is VERY sexy..."</li>
+          <li>"Trick or Treat!"</li>
+          <li>"Yes Master!"</li>
+          <li>"I'm a princess and you're not!"</li>
+          <li>"Hey! I'm talking here! Pay attention to me damnit!"</li>
+          <li>"I'm king...er...Queen of the World!"</li>
+        </ul>
+        <h2>Pre-Rendered images courtesy of Jeanine!</h2>
+        <ul>
+          <li>Aglis</li>
+          <li>Aglis 2</li>
+          <li>Aglis 3</li>
+          <li>Bale</li>
+          <li>Bale 2</li>
+          <li>Bale 3</li>
+          <li>Death Frontier</li>
+          <li>Deningrad</li>
+          <li>Deningrad 2</li>
+          <li>Donau</li>
+          <li>Donau 2</li>
+          <li>Ending Scene</li>
+          <li>Kazas</li>
+          <li>Marshlands</li>
+          <li>Mayfil</li>
+          <li>Mayfil 2</li>
+          <li>Mayfil 3</li>
+          <li>Moon</li>
+          <li>Moon 2</li>
+          <li>Moon 3</li>
+          <li>Moon 4</li>
+          <li>Neet</li>
+          <li>Shirley Shrine</li>
+          <li>Twin Castle</li>
+          <li>Ulara</li>
+          <li>Ulara 2</li>
+          <li>Zenebatos</li>
+        </ul>
+        <!-- endcontent -->
+      </td>
+    </tr>
+  </table>
+
+  <script src="/main.js"></script>
+
+</body>
+
+</html>

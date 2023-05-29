@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- This site was ripped and slightly modified from thelegendofdragoon.net on
+      the Wayback Machine (https://web.archive.org/web/*/thelegendofdragoon.net).
+
+      I love The Legend of Dragoon and wish to keep this content alive. I am also
+      planning on a complete rework, making it modern and adding much more.
+      Rehosted by Lavitz Starlove of Starscape Digital (https://github.com/astralvitz/)
+
+      Visit the main fansite at https://thelegendofdragoon.org and the Discord server!
+    -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>The Legend of Dragoon: Endiness, the Land of Dragoons!</title>
+
+  <meta name="author" content="Lavitz Starlove of Starscape Digital">
+  <meta name="description" content="A hub of info for The Legend of Dragoon, ripped from thelegendofdragoon.net">
+  <meta name="keywords" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="twitter:title" content="">
+  <meta property="twitter:description" content="">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="shortcut icon" href="/assets/lilspirit.jpg" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body class="">
+  <!-- layout-start.ejs -->
+  <table class="main" border="0" cellpadding="0" cellspacing="0" width="900px" height="700px">
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="160px">
+        <img name="splitter0" src="/assets/splitter_1x1.jpg">
+      </td>
+      <td width="638px" height="160px">
+        <img name="splitter1" src="/assets/splitter_1x2.jpg">
+      </td>
+    </tr>
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="72px">
+        <img name="splitter2" src="/assets/splitter_2x1.jpg" border="0">
+      </td>
+      <td width="638px" height="72px">
+        <img name="splitter3" src="/assets/splitter_2x2.jpg" border="0">
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top">
+        <div id="sidenav" name="menuDiv" class="menudiv">
+          <img src="/assets/buttontop.jpg">
+          <div id="menu0" class="navitem"><img id="image0" src="/assets/introbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(0);MouseOver(this, 0);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 0);}else{menuActive=true;showMenu(0);MouseOver(this, 0);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 0);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu1" class="navitem"><img id="image1" src="/assets/storybutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(1);MouseOver(this, 1);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 1);}else{menuActive=true;showMenu(1);MouseOver(this, 1);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 1);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu2" class="navitem"><img id="image2" src="/assets/charactersbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(2);MouseOver(this, 2);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 2);}else{menuActive=true;showMenu(2);MouseOver(this, 2);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 2);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu3" class="navitem"><img id="image3" src="/assets/gamehelpbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(3);MouseOver(this, 3);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 3);}else{menuActive=true;showMenu(3);MouseOver(this, 3);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 3);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu4" class="navitem"><img id="image4" src="/assets/mediabutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(4);MouseOver(this, 4);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 4);}else{menuActive=true;showMenu(4);MouseOver(this, 4);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 4);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu5" class="navitem"><img id="image5" src="/assets/etcbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(5);MouseOver(this, 5);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 5);}else{menuActive=true;showMenu(5);MouseOver(this, 5);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 5);}"></div>
+          <div id="popNav" class="popnav" border="60" style="position:absolute"></div>
+          <img src="/assets/buttonbottom.jpg">
+        </div>
+      </td>
+      <td rowspan="1" colspan="1" width="82" height="468" valign="top">
+        <img name="splitter5" src="/assets/splitter_3x2.jpg" width="82" height="468" border="0">
+      </td>
+      <td rowspan="1" colspan="1" width="638" height="468"
+        background="/web/20150224163944im_/http://www.thelegendofdragoon.net:80/bg.jpg" valign="top">
+
+        <!-- content -->
+        <h1 id="title">Voices and Lyrics from Legend of Dragoon</h1>
+        <p>Below are the people who lended their voices to be the characters from Legend of Dragoon, and below that
+          you'll find
+          the lyrics to that beautiful song, "If You Still Believe".</p>
+
+        <table border="1" cellpading="10" cellspacing="10" style="border-collapse: collapse" width="75%">
+          <tr>
+            <td colspan="2">
+              <p align="center"><b>VOICES (ENGLISH)</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Character
+            </td>
+            <td>
+              <p align="center">Voice Actor
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <p align="center">Dart
+            </td>
+            <td>
+              <p align="center">John Butterfield
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Rose
+            </td>
+            <td>
+              <p align="center">Awele Makisa
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Shana
+            </td>
+            <td>
+              <p align="center">Donna Moe Wong
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Lavitz
+            </td>
+            <td>
+              <p align="center">Mike Marx
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Albert
+            </td>
+            <td>
+              <p align="center">David Babich
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Haschel
+            </td>
+            <td>
+              <p align="center">Brian Vouglas
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Meru
+            </td>
+            <td>
+              <p align="center">Lucy Kee
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Kongol
+            </td>
+            <td>
+              <p align="center">Emie Joselius
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Miranda
+            </td>
+            <td>
+              <p align="center">Mo Mellady
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Lloyd
+            </td>
+            <td>
+              <p align="center">Jon Russel
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Librarian Ute
+            </td>
+            <td>
+              <p align="center">J.S. Gilbert
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Melbu Frahma
+            </td>
+            <td>
+              <p align="center">David Babich
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Zeig Feld
+            </td>
+            <td>
+              <p align="center">Doug Boyd
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Fester
+            </td>
+            <td>
+              <p align="center">Emie Joselius
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Dewey (Deningrad Priest)
+            </td>
+            <td>
+              <p align="center">Wally Fields
+            </td>
+          </tr>
+        </table>
+
+
+
+
+        <p>
+        <table border="1" cellpading="10" cellspacing="10" style="border-collapse: collapse" width="75%">
+          <tr>
+            <td colspan="2">
+              <p align="center">
+                <font size="4"><b>VOICES (JAPANESE)</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Character
+            </td>
+            <td>
+              <p align="center">Voice Actor
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <p align="center">Dart
+            </td>
+            <td>
+              <p align="center">Tomokazu Seki
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Rose
+            </td>
+            <td>
+              <p align="center">Yumi Tohma
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Shana
+            </td>
+            <td>
+              <p align="center">Akemi Okamura
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Ravitz
+            </td>
+            <td>
+              <p align="center">Kazuhiro Ohguro
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Albert
+            </td>
+            <td>
+              <p align="center">Sin-ichiro Miki
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Hatchel
+            </td>
+            <td>
+              <p align="center">Minoru Inaba
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Meru
+            </td>
+            <td>
+              <p align="center">Yomoko Kawakami
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Kongol
+            </td>
+            <td>
+              <p align="center">Masashi Sugawara
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Lloyd
+            </td>
+            <td>
+              <p align="center">Show Hayami
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Uti
+            </td>
+            <td>
+              <p align="center">Mugihito
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Melb
+            </td>
+            <td>
+              <p align="center">Kaneta Shiozawa
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Seig
+            </td>
+            <td>
+              <p align="center">Akio Otsuka
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Phester
+            </td>
+            <td>
+              <p align="center">Hiroaki Hirata
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center">Dewey (Deningrad Priest)
+            </td>
+            <td>
+              <p align="center">Akira Kume
+            </td>
+          </tr>
+        </table>
+
+        <h2>"If You Still Believe" Lyrics</h2>
+
+        <p>Sung by: Elsa Raven
+          <br />Lyrics, Composed/Produced by: Dennis Martin
+        </p>
+
+        NOTE: I cannot guarantee these are the EXACT lyrics. I just got them from hearing the song multiple times.
+
+        <div class="condensed">
+          <div>
+            <p>I had a dream that I could fly</p>
+            <p>I can feel each moment as time goes by</p>
+            <p>We'd never be too far away</p>
+            <p>You would always be here I heard you say</p>
+          </div>
+
+          <div>
+            <p>I never thought (oooohhh)</p>
+            <p>Thought that it would be our last goodbye (our last goodbye)</p>
+            <p>I still can dream (oooohh)</p>
+            <p>That one day love will fall out from the sky (love will fall...ooooohh)</p>
+          </div>
+
+          <div>
+            <p>Do you still remember</p>
+            <p>All the time that has gone by (do you believe)</p>
+            <p>Do you still believe that</p>
+            <p>Love can fall out from the sky (from the sky)</p>
+          </div>
+
+          <div>
+            <p>If from where you're standing</p>
+            <p>You can see the sky above</p>
+            <p>I'll be waiting for you (I'll be waiting)</p>
+            <p>If you still believe in love (If you still believe)</p>
+          </div>
+
+          <div>
+            <p>Find a way</p>
+            <p>To bring back yesterday</p>
+            <p>Find a way for love (ooohh)</p>
+          </div>
+
+          <div>
+            <p>I hope you'll stay</p>
+            <p>When tomorrow becomes today</p>
+            <p>Love will find a way</p>
+          </div>
+
+          <div>
+            <p>Oh la la la...</p>
+          </div>
+
+          <div>
+            <p>I'll be waiting for you</p>
+            <p>In my heart you are the one (la la la...)</p>
+            <p>If I cannot find you</p>
+            <p>I will look up to the sun (do you believe...do you believe)</p>
+          </div>
+
+          <div>
+            <p>If from where you're standing</p>
+            <p>You can see the sky above (above...la la la la la...)</p>
+            <p>I'll be waiting for you (I'll be waiting)</p>
+            <p>If you still believe in love (do you believe...do you believe)</p>
+          </div>
+
+          <div>
+            <p>Musical interlude</p>
+          </div>
+
+          <div>
+            <p>Do you still remember</p>
+            <p>All the time that has gone by (gone by...la la la la la)</p>
+            <p>Do you still believe that</p>
+            <p>Love can fall out from the sky (oooohhh)</p>
+          </div>
+
+          <div>
+            <p>If from where you're standing</p>
+            <p>You can see the sky above (do you believe)</p>
+            <p>I'll be waiting for you</p>
+            <p>If you still believe in love (la la la la la...)</p>
+          </div>
+
+          <div>
+            <p>La la la la la la</p>
+            <p>la la la la la la la (x4)</p>
+          </div>
+        </div>
+        <!-- endcontent -->
+      </td>
+    </tr>
+  </table>
+
+  <script src="/main.js"></script>
+
+</body>
+
+</html>
