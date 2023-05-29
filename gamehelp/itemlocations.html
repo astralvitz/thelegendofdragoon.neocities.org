@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- This site was ripped and slightly modified from thelegendofdragoon.net on
+      the Wayback Machine (https://web.archive.org/web/*/thelegendofdragoon.net).
+
+      I love The Legend of Dragoon and wish to keep this content alive. I am also
+      planning on a complete rework, making it modern and adding much more.
+      Rehosted by Lavitz Starlove of Starscape Digital (https://github.com/astralvitz/)
+
+      Visit the main fansite at https://thelegendofdragoon.org and the Discord server!
+    -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>The Legend of Dragoon: Endiness, the Land of Dragoons!</title>
+
+  <meta name="author" content="Lavitz Starlove of Starscape Digital">
+  <meta name="description" content="A hub of info for The Legend of Dragoon, ripped from thelegendofdragoon.net">
+  <meta name="keywords" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="twitter:title" content="">
+  <meta property="twitter:description" content="">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="shortcut icon" href="/assets/lilspirit.jpg" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body class="">
+  <!-- layout-start.ejs -->
+  <table border="0" cellpadding="0" cellspacing="0" width="900px" height="700px">
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="160px">
+        <img name="splitter0" src="/assets/splitter_1x1.jpg">
+      </td>
+      <td width="638px" height="160px">
+        <img name="splitter1" src="/assets/splitter_1x2.jpg">
+      </td>
+    </tr>
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="72px">
+        <img name="splitter2" src="/assets/splitter_2x1.jpg" border="0">
+      </td>
+      <td width="638px" height="72px">
+        <img name="splitter3" src="/assets/splitter_2x2.jpg" border="0">
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top">
+        <div id="sidenav" name="menuDiv" class="menudiv">
+          <img src="/assets/buttontop.jpg">
+          <div id="menu0" class="navitem"><img id="image0" src="/assets/introbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(0);MouseOver(this, 0);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 0);}else{menuActive=true;showMenu(0);MouseOver(this, 0);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 0);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu1" class="navitem"><img id="image1" src="/assets/storybutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(1);MouseOver(this, 1);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 1);}else{menuActive=true;showMenu(1);MouseOver(this, 1);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 1);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu2" class="navitem"><img id="image2" src="/assets/charactersbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(2);MouseOver(this, 2);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 2);}else{menuActive=true;showMenu(2);MouseOver(this, 2);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 2);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu3" class="navitem"><img id="image3" src="/assets/gamehelpbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(3);MouseOver(this, 3);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 3);}else{menuActive=true;showMenu(3);MouseOver(this, 3);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 3);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu4" class="navitem"><img id="image4" src="/assets/printablesbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(4);MouseOver(this, 4);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 4);}else{menuActive=true;showMenu(4);MouseOver(this, 4);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 4);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu5" class="navitem"><img id="image5" src="/assets/mediabutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(5);MouseOver(this, 5);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 5);}else{menuActive=true;showMenu(5);MouseOver(this, 5);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 5);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu6" class="navitem"><img id="image6" src="/assets/etcbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(6);MouseOver(this, 6);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 6);}else{menuActive=true;showMenu(6);MouseOver(this, 6);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 6);}"></div>
+          <div id="popNav" class="popnav" border="60" style="position:absolute"></div>
+          <img src="/assets/buttonbottom.jpg">
+        </div>
+      </td>
+      <td rowspan="1" colspan="1" width="82" height="468" valign="top">
+        <img name="splitter5" src="/assets/splitter_3x2.jpg" width="82" height="468" border="0">
+      </td>
+      <td rowspan="1" colspan="1" width="638" height="468"
+        background="/web/20150224163944im_/http://www.thelegendofdragoon.net:80/bg.jpg" valign="top">
+
+        <!-- content -->
+        <h1 id="title"><u>Items in Endiness</u></h1>
+
+        <p>
+          <font size="2">Items in Endiness are found in chests. Some of the "Items" are armor. Here is a list of items
+            located in different regions of Endiness. These do not include those items won in boss battles. For
+            information on what each item does, check out <a href="/gamehelp/items"><u>Items</u></a>.
+
+            <!-- Remove underlines here or re-add them to the other pages? -->
+            <p><u>Seles: 1</u>
+              <br>
+            <ul>
+              <li type="disc">Burn Out
+            </ul>
+
+            <p><u>Forest: 3</u>
+              <br>
+            <ul>
+              <li type="disc">Healing Potion
+                <br>
+              <li type="disc">Charm Potion
+                <br>
+              <li type="disc">Burn Out
+            </ul>
+
+            <p><u>Hellena Prison (1st Visit): 4</u>
+              <br>
+            <ul>
+              <li type="disc">Burn Out
+                <br>
+              <li type="disc">Leather Jacket
+                <br>
+              <li type="disc">Angel's Prayer
+                <br>
+              <li type="disc">Spark Net
+            </ul>
+
+            <p><u>The Prairie: 1</u>
+              <br>
+            <ul>
+              <li type="disc">Angel's Prayer
+            </ul>
+
+            <p><u>Limestone Cave: 13</u>
+              <br>
+            <ul>
+              <li type="disc">Detonate Rock
+                <br>
+              <li type="disc">Healing Potion (2)
+                <br>
+              <li type="disc">Bastard Sword
+                <br>
+              <li type="disc">Total Vanishing
+                <br>
+              <li type="disc">Body Purifier (2)
+                <br>
+              <li type="disc">Angel's Prayer
+                <br>
+              <li type="disc">Burn Out
+                <br>
+              <li type="disc">Spark Net
+                <br>
+              <li type="disc">Poison Guard (from Rabbit)
+                <br>
+              <li type="disc">Charm Potion
+                <br>
+              <li type="disc">Bandana
+            </ul>
+
+            <p><u>Bale: 3</u>
+              <br>
+            <ul>
+              <li type="disc">Sparkle Arrow
+                <br>
+              <li type="disc">Active Ring
+                <br>
+              <li type="disc">Healing Breeze
+            </ul>
+
+            <p><u>Hoax: 2</u>
+              <br>
+            <ul>
+              <li type="disc">Healing Potion
+                <br>
+              <li type="disc">Angel's Prayer
+            </ul>
+
+            <p><u>Marshlands: 10 (5 of which are acquired through the sidequest)</u>
+              <br>
+            <ul>
+              <li type="disc">Spirit Potion (2) (1 in Side Quest)
+                <br>
+              <li type="disc">Healing Potion (Side Quest)
+                <br>
+              <li type="disc">Lance (Side Quest)
+                <br>
+              <li type="disc">Sun Rhapsody (2) (Both in Side Quest)
+                <br>
+              <li type="disc">Stun Guard
+                <br>
+              <li type="disc">Burn Out
+                <br>
+              <li type="disc">Body Purifier
+                <br>
+              <li type="disc">Magic Stone of Signet
+            </ul>
+
+            <p><u>Volcano Villude: 3</u>
+              <br>
+            <ul>
+              <li type="disc">Spear Frost
+                <br>
+              <li type="disc">Mind Purifier
+                <br>
+              <li type="disc">Panic Guard
+            </ul>
+
+            <p><u>Dragon's Nest: 5</u>
+              <br>
+            <ul>
+              <li type="disc">Bravery Amulet
+                <br>
+              <li type="disc">Mind Purifier
+                <br>
+              <li type="disc">Spirit Potion
+                <br>
+              <li type="disc">Body Purifier
+                <br>
+              <li type="disc">Chain Mail
+            </ul>
+
+            <p><u>Shirley Shrine: 2</u>
+              <br>
+            <ul>
+              <li type="disc">Demon Stiletto
+                <br>
+              <li type="disc">Healing Breeze
+            </ul>
+
+            <p><u>Hellena (2nd Visit): 11</u>
+              <br>
+            <ul>
+              <li type="disc">Leather Armor
+                <br>
+              <li type="disc">Pandemonium
+                <br>
+              <li type="disc">Thunder Bolt
+                <br>
+              <li type="disc">Felt Hat
+                <br>
+              <li type="disc">Silver Embroidered Vest
+                <br>
+              <li type="disc">Therapy Ring
+                <br>
+              <li type="disc">Healing Potion (2)
+                <br>
+              <li type="disc">Sachet
+                <br>
+              <li type="disc">Spear
+                <br>
+              <li type="disc">Broad Sword
+            </ul>
+
+            <p><u>Black Castle/Kazas: 9</u>
+              <br>
+            <ul>
+              <li type="disc">Attack Ball
+                <br>
+              <li type="disc">Twister Glaive
+                <br>
+              <li type="disc">Spark Net
+                <br>
+              <li type="disc">Dark Mist
+                <br>
+              <li type="disc">Trans Light
+                <br>
+              <li type="disc">Beast Fang
+                <br>
+              <li type="disc">Spear Frost
+                <br>
+              <li type="disc">Spirit Ring
+                <br>
+              <li type="disc">Spining Gale
+            </ul>
+
+            <p><u>Fletz: 2</u>
+              <br>
+            <ul>
+              <li type="disc">Moon Serenade
+                <br>
+              <li type="disc">Sun Rhapsody
+            </ul>
+
+            <p><u>The Barrens: 2</u>
+              <br>
+            <ul>
+              <li type="disc">Warrior's Dress
+                <br>
+              <li type="disc">Recovery Ball
+            </ul>
+
+            <p><u>Valley of Corrupted Gravity: 5</u>
+              <br>
+            <ul>
+              <li type="disc">Sachet
+                <br>
+              <li type="disc">Speed Up
+                <br>
+              <li type="disc">Meteor Fall
+                <br>
+              <li type="disc">Talisman
+                <br>
+              <li type="disc">Knight Helm
+            </ul>
+
+            <p><u>Home of Gigantos: 2</u>
+              <br>
+            <ul>
+              <li type="disc">Bandit's Ring
+                <br>
+              <li type="disc">Angel's Prayer
+            </ul>
+
+            <p><u>Queen Fury/Ghost Ship: 2</u>
+              <br>
+            <ul>
+              <li type="disc">Bravery Amulet
+                <br>
+              <li type="disc">Dancing Dagger
+            </ul>
+
+            <p><u>Lidiera: 3</u>
+              <br>
+            <ul>
+              <li type="disc">Healing Fog
+                <br>
+              <li type="disc">Healing Potion
+                <br>
+              <li type="disc">Healing Rain
+            </ul>
+
+            <p><u>Island of Jailed Dragon/Undersea Cavern: 7</u>
+              <br>
+            <ul>
+              <li type="disc">Attack Ball (2)
+                <br>
+              <li type="disc">Jeweled Crown
+                <br>
+              <li type="disc">Recovery Ball (2)
+                <br>
+              <li type="disc">Gushing Magma
+                <br>
+              <li type="disc">Burn Out
+            </ul>
+
+            <p><u>Evergreen Forest: 3</u>
+              <br>
+            <ul>
+              <li type="disc">Destone Amulet
+                <br>
+              <li type="disc">Body Purifier
+                <br>
+              <li type="disc">Depetrifier
+                <br>
+              <li type="disc">Mind Purifier (in tent)
+            </ul>
+
+            <p><u>Crystal Palace: 1</u>
+              <br>
+            <ul>
+              <li type="disc">Holy Ankh
+            </ul>
+
+
+            <p><u>The Forbidden Land: 4</u>
+              <br>
+            <ul>
+              <li type="disc">Mind Purifier
+                <br>
+              <li type="disc">Dancer's Shoes
+                <br>
+              <li type="disc">Power Up
+                <br>
+              <li type="disc">Mind Crush
+            </ul>
+
+            <p><u>Mountain of Mortal Dragon: 7</u>
+              <br>
+            <ul>
+              <li type="disc">Attack Ball
+                <br>
+              <li type="disc">Mind Purifier
+                <br>
+              <li type="disc">Healing Breeze
+                <br>
+              <li type="disc">Giganto Armor
+                <br>
+              <li type="disc">Dragon Helm
+                <br>
+              <li type="disc">Total Vanishing
+                <br>
+              <li type="disc">Body Purifier
+            </ul>
+
+            <p><u>Kashua Glacier: 13 (2 acquired through the Vanishing Stone)</u>
+              <br>
+            <ul>
+              <li type="disc">Thunderbolt
+                <br>
+              <li type="disc">Heat Blade
+                <br>
+              <li type="disc">Heavy Mace
+                <br>
+              <li type="disc">Gushing Magma
+                <br>
+              <li type="disc">Dancing Ray
+                <br>
+              <li type="disc">Phoenix Plume
+                <br>
+              <li type="disc">Fatal Blizzard
+                <br>
+              <li type="disc">Black Rain
+                <br>
+              <li type="disc">Spirit Ring
+                <br>
+              <li type="disc">Rave Twister
+                <br>
+              <li type="disc">Mage Ring
+                <br>
+              <li type="disc">Therapy Ring
+                <br>
+              <li type="disc">Dragon Helm
+            </ul>
+
+            <p><u>Snowfield/Fort Magrad: 10 (5 in Snowfield, 5 in Fort Magrad)</u>
+              <br>
+            <ul>
+              <li type="disc">Burn Out
+                <br>
+              <li type="disc">Magic Shield
+                <br>
+              <li type="disc">Dancer's Ring
+                <br>
+              <li type="disc">Burning Wave
+                <br>
+              <li type="disc">Gushing Magma
+                <br>
+              <li type="disc">Midnight Terror
+                <br>
+              <li type="disc">Stunning Hammer
+                <br>
+              <li type="disc">Poison Needle
+                <br>
+              <li type="disc">Armor of Yore
+                <br>
+              <li type="disc">Panic Bell
+            </ul>
+
+            <p><u>Vellweb: 3</u>
+              <br>
+            <ul>
+              <li type="disc">Attack Ball
+                <br>
+              <li type="disc">Rose's Hairband
+                <br>
+              <li type="disc">Spirit Potion
+            </ul>
+
+            <p><u>Death Frontier: 10</u>
+              <br>
+            <ul>
+              <li type="disc">Healing Rain
+                <br>
+              <li type="disc">Healing Breeze
+                <br>
+              <li type="disc">Healing Fog
+                <br>
+              <li type="disc">Healing Potion
+                <br>
+              <li type="disc">Moon Serenade
+                <br>
+              <li type="disc">Power Down
+                <br>
+              <li type="disc">Sun Rhapsody
+                <br>
+              <li type="disc">Recovery Ball
+                <br>
+              <li type="disc">Gladius
+                <br>
+              <li type="disc">Bandit's Shoes
+            </ul>
+
+            <p><u>Ulara: 2</u>
+              <br>
+            <ul>
+              <li type="disc">Sun Rhapsody
+                <br>
+              <li type="disc">Moon Serenade
+            </ul>
+
+            <p><u>Rogue</u>
+              <br>
+            <ul>
+              <li type="disc">Satori Vest
+                <br>
+              <li type="disc">Wargod's Calling
+            </ul>
+
+            <p><u>Aglis: 10</u>
+              <br>
+            <ul>
+              <li type="disc">Burn Out
+                <br>
+              <li type="disc">Gushing Magma
+                <br>
+              <li type="disc">Magical Hat
+                <br>
+              <li type="disc">Moon Serenade
+                <br>
+              <li type="disc">Angel's Prayer
+                <br>
+              <li type="disc">Sun Rhapsody
+                <br>
+              <li type="disc">Healing Fog
+                <br>
+              <li type="disc">Healing Rain
+                <br>
+              <li type="disc">Psychadelic Bomb
+                <br>
+              <li type="disc">Healing Breeze
+            </ul>
+
+            <p><u>Zenebatos: 9</u>
+              <br>
+            <ul>
+              <li type="disc">Frozen Jet
+                <br>
+              <li type="disc">Burning Wave
+                <br>
+              <li type="disc">Spectral Flash
+                <br>
+              <li type="disc">Night Raid
+                <br>
+              <li type="disc">Rainbow Dress
+                <br>
+              <li type="disc">Down Burst
+                <br>
+              <li type="disc">Spirit Cloak
+                <br>
+              <li type="disc">Gravity Grabber
+                <br>
+              <li type="disc">Flash Hall (near the prison)
+            </ul>
+
+            <p><u>Mayfil: 9</u>
+              <br>
+            <ul>
+              <li type="disc">Poison Guard
+                <br>
+              <li type="disc">Stun Guard
+                <br>
+              <li type="disc">Panic Guard
+                <br>
+              <li type="disc">Protector
+                <br>
+              <li type="disc">Active Ring
+                <br>
+              <li type="disc">Bravery Amulet
+                <br>
+              <li type="disc">Magic Ego Bell
+                <br>
+              <li type="disc">Healing Rain
+                <br>
+              <li type="disc">Spectral Flash
+            </ul>
+
+            <p><u>Divine Tree: 2</u>
+              <br>
+            <ul>
+              <li type="disc">Phoenix Plume
+                <br>
+              <li type="disc">White Silver Dragon Armor
+            </ul>
+
+            <p><u>Moon: 8</u>
+              <br>
+            <ul>
+              <li type="disc">Frozen Jet
+                <br>
+              <li type="disc">Down Burst
+                <br>
+              <li type="disc">Spectral Flash
+                <br>
+              <li type="disc">Flash Hall
+                <br>
+              <li type="disc">Night Raid
+                <br>
+              <li type="disc">Burning Wave
+                <br>
+              <li type="disc">Gravity Grabber
+                <br>
+              <li type="disc">Detonate Arrow
+            </ul>
+            <!-- endcontent -->
+      </td>
+    </tr>
+  </table>
+
+  <script src="/main.js"></script>
+
+</body>
+
+</html>

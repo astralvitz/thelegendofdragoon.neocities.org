@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- This site was ripped and slightly modified from thelegendofdragoon.net on
+      the Wayback Machine (https://web.archive.org/web/*/thelegendofdragoon.net).
+
+      I love The Legend of Dragoon and wish to keep this content alive. I am also
+      planning on a complete rework, making it modern and adding much more.
+      Rehosted by Lavitz Starlove of Starscape Digital (https://github.com/astralvitz/)
+
+      Visit the main fansite at https://thelegendofdragoon.org and the Discord server!
+    -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>The Legend of Dragoon: Endiness, the Land of Dragoons!</title>
+
+  <meta name="author" content="Lavitz Starlove of Starscape Digital">
+  <meta name="description" content="A hub of info for The Legend of Dragoon, ripped from thelegendofdragoon.net">
+  <meta name="keywords" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="twitter:title" content="">
+  <meta property="twitter:description" content="">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="shortcut icon" href="/assets/lilspirit.jpg" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body class="">
+  <!-- layout-start.ejs -->
+  <table border="0" cellpadding="0" cellspacing="0" width="900px" height="700px">
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="160px">
+        <img name="splitter0" src="/assets/splitter_1x1.jpg">
+      </td>
+      <td width="638px" height="160px">
+        <img name="splitter1" src="/assets/splitter_1x2.jpg">
+      </td>
+    </tr>
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="72px">
+        <img name="splitter2" src="/assets/splitter_2x1.jpg" border="0">
+      </td>
+      <td width="638px" height="72px">
+        <img name="splitter3" src="/assets/splitter_2x2.jpg" border="0">
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top">
+        <div id="sidenav" name="menuDiv" class="menudiv">
+          <img src="/assets/buttontop.jpg">
+          <div id="menu0" class="navitem"><img id="image0" src="/assets/introbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(0);MouseOver(this, 0);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 0);}else{menuActive=true;showMenu(0);MouseOver(this, 0);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 0);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu1" class="navitem"><img id="image1" src="/assets/storybutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(1);MouseOver(this, 1);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 1);}else{menuActive=true;showMenu(1);MouseOver(this, 1);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 1);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu2" class="navitem"><img id="image2" src="/assets/charactersbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(2);MouseOver(this, 2);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 2);}else{menuActive=true;showMenu(2);MouseOver(this, 2);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 2);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu3" class="navitem"><img id="image3" src="/assets/gamehelpbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(3);MouseOver(this, 3);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 3);}else{menuActive=true;showMenu(3);MouseOver(this, 3);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 3);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu4" class="navitem"><img id="image4" src="/assets/printablesbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(4);MouseOver(this, 4);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 4);}else{menuActive=true;showMenu(4);MouseOver(this, 4);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 4);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu5" class="navitem"><img id="image5" src="/assets/mediabutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(5);MouseOver(this, 5);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 5);}else{menuActive=true;showMenu(5);MouseOver(this, 5);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 5);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu6" class="navitem"><img id="image6" src="/assets/etcbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(6);MouseOver(this, 6);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 6);}else{menuActive=true;showMenu(6);MouseOver(this, 6);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 6);}"></div>
+          <div id="popNav" class="popnav" border="60" style="position:absolute"></div>
+          <img src="/assets/buttonbottom.jpg">
+        </div>
+      </td>
+      <td rowspan="1" colspan="1" width="82" height="468" valign="top">
+        <img name="splitter5" src="/assets/splitter_3x2.jpg" width="82" height="468" border="0">
+      </td>
+      <td rowspan="1" colspan="1" width="638" height="468"
+        background="/web/20150224163944im_/http://www.thelegendofdragoon.net:80/bg.jpg" valign="top">
+
+        <!-- content -->
+        <h1 id="title"><u>Sidequests</u></h1>
+
+        <p>
+          <font size="2">All the Side Quests in Legend of Dragoon are optional, since they have no effect on the main
+            storyline. However, they usually don't take too long, and some of the rewards can be found nowhere else in
+            the game. I recommend trying all of them for fun and some cool prizes.
+
+            <hr="5">
+
+              <p>
+              <table border="1" cellpading="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+                <tr>
+                  <td colspan="3">
+                    <p align="center">
+                      <font size="4"><b>SIDEQUESTS</b></font>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="3">Location</b>
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="3">Mission</font>
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="3">Reward</font>
+                  </td>
+                </tr>
+
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Limestone Cave
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Catch the rabbit
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Poison Guard
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Bale
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Talk to painting girl
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Painting of Lavitz
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Marshland
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Eliminate all enemies invading the 7th Fort
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Experience and Gold
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Lohan
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Get Gold DS from guy who sold you the Water Bottle
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Kongol's Dragoon Spirit
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Donau
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Free Lynn and return to Donau immediately
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Kate's Boquet
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Queen Fury
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">The Vegetable Julian - Chop chop! (Try using all the characters)
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">1 piece of Gold
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Evergreen Forest
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Defeat Kamuy
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Gold Reward
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Fort Magrad
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Defeat Polter Armor
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Dart's strongest sword, the Soul Eater
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Vellweb
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Defeat the four undead Dragoons in tower
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Respective Dragoon Stones
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Flanvel
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Defeat Faust (see Stardust)
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Phantom Shield
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p align="center">
+                      <font size="2">Mayfil
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Defeat the three Dragon Spirits
+                  </td>
+                  <td>
+                    <p align="center">
+                      <font size="2">Down Burst, Frozen Jet, Destone Amulet
+                  </td>
+                </tr>
+              </table>
+              <!-- endcontent -->
+      </td>
+    </tr>
+  </table>
+
+  <script src="/main.js"></script>
+
+</body>
+
+</html>
