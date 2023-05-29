@@ -154,3 +154,46 @@ div.popnav & a {
 .item > .bio > p:first-child{
   margin: 0;
 }
+
+/* new styles 2023 */
+.flextable {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flextablerow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+
+.flextablerowinfo {
+  border: 1px solid white;
+  padding: 0.25rem;
+}
+
+.threecol > h2 {
+  width: 33.333333%
+}
+
+.threecol > div {
+  width: 33.333333%
+}
+
+.twocol > h2 {
+  width: 50%
+}
+
+.twocol > div {
+  width: 50%
+}
+
+.flextablerow:nth-child(even) {
+  background-color: #333333;
+}
+
+.addition {
+  margin-top: 1rem;
+}

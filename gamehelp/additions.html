@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- This site was ripped and slightly modified from thelegendofdragoon.net on
+      the Wayback Machine (https://web.archive.org/web/*/thelegendofdragoon.net).
+
+      I love The Legend of Dragoon and wish to keep this content alive. I am also
+      planning on a complete rework, making it modern and adding much more.
+      Rehosted by Lavitz Starlove of Starscape Digital (https://github.com/astralvitz/)
+
+      Visit the main fansite at https://thelegendofdragoon.org and the Discord server!
+    -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>The Legend of Dragoon: Endiness, the Land of Dragoons!</title>
+
+  <meta name="author" content="Lavitz Starlove of Starscape Digital">
+  <meta name="description" content="A hub of info for The Legend of Dragoon, ripped from thelegendofdragoon.net">
+  <meta name="keywords" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="twitter:title" content="">
+  <meta property="twitter:description" content="">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="shortcut icon" href="/assets/lilspirit.jpg" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body class="">
+  <!-- layout-start.ejs -->
+  <table border="0" cellpadding="0" cellspacing="0" width="900px" height="700px">
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="160px">
+        <img name="splitter0" src="/assets/splitter_1x1.jpg">
+      </td>
+      <td width="638px" height="160px">
+        <img name="splitter1" src="/assets/splitter_1x2.jpg">
+      </td>
+    </tr>
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="72px">
+        <img name="splitter2" src="/assets/splitter_2x1.jpg" border="0">
+      </td>
+      <td width="638px" height="72px">
+        <img name="splitter3" src="/assets/splitter_2x2.jpg" border="0">
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top">
+        <div id="sidenav" name="menuDiv" class="menudiv">
+          <img src="/assets/buttontop.jpg">
+          <div id="menu0" class="navitem"><img id="image0" src="/assets/introbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(0);MouseOver(this, 0);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 0);}else{menuActive=true;showMenu(0);MouseOver(this, 0);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 0);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu1" class="navitem"><img id="image1" src="/assets/storybutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(1);MouseOver(this, 1);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 1);}else{menuActive=true;showMenu(1);MouseOver(this, 1);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 1);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu2" class="navitem"><img id="image2" src="/assets/charactersbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(2);MouseOver(this, 2);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 2);}else{menuActive=true;showMenu(2);MouseOver(this, 2);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 2);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu3" class="navitem"><img id="image3" src="/assets/gamehelpbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(3);MouseOver(this, 3);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 3);}else{menuActive=true;showMenu(3);MouseOver(this, 3);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 3);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu4" class="navitem"><img id="image4" src="/assets/printablesbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(4);MouseOver(this, 4);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 4);}else{menuActive=true;showMenu(4);MouseOver(this, 4);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 4);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu5" class="navitem"><img id="image5" src="/assets/mediabutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(5);MouseOver(this, 5);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 5);}else{menuActive=true;showMenu(5);MouseOver(this, 5);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 5);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu6" class="navitem"><img id="image6" src="/assets/etcbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(6);MouseOver(this, 6);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 6);}else{menuActive=true;showMenu(6);MouseOver(this, 6);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 6);}"></div>
+          <div id="popNav" class="popnav" border="60" style="position:absolute"></div>
+          <img src="/assets/buttonbottom.jpg">
+        </div>
+      </td>
+      <td rowspan="1" colspan="1" width="82" height="468" valign="top">
+        <img name="splitter5" src="/assets/splitter_3x2.jpg" width="82" height="468" border="0">
+      </td>
+      <td rowspan="1" colspan="1" width="638" height="468"
+        background="/web/20150224163944im_/http://www.thelegendofdragoon.net:80/bg.jpg" valign="top">
+
+        <!-- content -->
+        <h1 id="title">Additions</h1>
+
+        <p>Here you will find a list of everyone's additions at each level. This way, you'll know which Additions give
+          you more SP, which give you more Power, or which do both. Keep in mind that the only way to get the FINAL
+          Addition is to get to Level 5 (80+ complete Additions) on all of that character's previous Additions.</p>
+
+        <p>For everyone, here are the levels for Additions:
+          <br>Level 1: 0-19
+          <br>Level 2: 20-39
+          <br>Level 3: 40-59
+          <br>Level 4: 60-79
+          <br>Level 5: 80-99
+        </p>
+
+        <div> <!-- character card -->
+          <h1 style="background-color: red">DART</h1>
+          <div class="addition"> <!-- addition card -->
+            <div>
+              Name: Double Slash
+              <br>Level Earned: Initial
+              <br>Number of Strikes: 1
+            </div>
+
+            <div class="flextable">
+              <div class="flextablerow threecol">
+                <h2>Level</h2>
+                <h2>Spirit Points</h2>
+                <h2>Damage %</h2>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>1</div>
+                <div>35</div>
+                <div>150</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>2</div>
+                <div>35</div>
+                <div>157</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>3</div>
+                <div>35</div>
+                <div>165</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>4</div>
+                <div>35</div>
+                <div>180</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>5</div>
+                <div>35</div>
+                <div>202</div>
+              </div>
+            </div>
+          </div> <!-- end addition card -->
+          <div class="addition"> <!-- addition card -->
+            <div>
+              Name: Volcano
+              <br>Level Earned: 2
+              <br>Number of Strikes: 3
+            </div>
+
+            <div class="flextable">
+              <div class="flextablerow threecol">
+                <h2>Level</h2>
+                <h2>Spirit Points</h2>
+                <h2>Damage %</h2>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>1</div>
+                <div>20</div>
+                <div>200</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>2</div>
+                <div>24</div>
+                <div>210</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>3</div>
+                <div>28</div>
+                <div>220</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>4</div>
+                <div>32</div>
+                <div>230</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>5</div>
+                <div>36</div>
+                <div>250</div>
+              </div>
+            </div>
+          </div> <!-- end addition card -->
+          <div class="addition"> <!-- addition card -->
+            <div>
+              Name: Burning Rush
+              <br>Level Earned: 8
+              <br>Number of Strikes: 2
+            </div>
+
+            <div class="flextable">
+              <div class="flextablerow threecol">
+                <h2>Level</h2>
+                <h2>Spirit Points</h2>
+                <h2>Damage %</h2>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>1</div>
+                <div>30</div>
+                <div>150</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>2</div>
+                <div>45</div>
+                <div>150</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>3</div>
+                <div>60</div>
+                <div>150</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>4</div>
+                <div>75</div>
+                <div>150</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>5</div>
+                <div>102</div>
+                <div>150</div>
+              </div>
+            </div>
+          </div> <!-- end addition card -->
+          <div class="addition"> <!-- addition card -->
+            <div>
+              Name: Crush Dance
+              <br>Level Earned: 15
+              <br>Number of Strikes: 4
+            </div>
+
+            <div class="flextable">
+              <div class="flextablerow threecol">
+                <h2>Level</h2>
+                <h2>Spirit Points</h2>
+                <h2>Damage %</h2>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>1</div>
+                <div>50</div>
+                <div>150</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>2</div>
+                <div>60</div>
+                <div>172</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>3</div>
+                <div>75</div>
+                <div>195</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>4</div>
+                <div>85</div>
+                <div>217</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>5</div>
+                <div>100</div>
+                <div>250</div>
+              </div>
+            </div>
+          </div> <!-- end addition card -->
+          <div class="addition"> <!-- addition card -->
+            <div>
+              Name: Madness Hero
+              <br>Level Earned: 22
+              <br>Number of Strikes: 5
+            </div>
+            <div class="flextable">
+              <div class="flextablerow threecol">
+                <h2>Level</h2>
+                <h2>Spirit Points</h2>
+                <h2>Damage %</h2>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>1</div>
+                <div>60</div>
+                <div>100</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>2</div>
+                <div>90</div>
+                <div>100</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>3</div>
+                <div>120</div>
+                <div>100</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>4</div>
+                <div>150</div>
+                <div>100</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>5</div>
+                <div>204</div>
+                <div>250</div>
+              </div>
+            </div>
+          </div> <!-- end addition card -->
+          <div class="addition"> <!-- addition card -->
+            <div>
+              Name: Moon Strike
+              <br>Level Earned: 29
+              <br>Number of Strikes: 6
+            </div>
+            <div class="flextable">
+              <div class="flextablerow threecol">
+                <h2>Level</h2>
+                <h2>Spirit Points</h2>
+                <h2>Damage %</h2>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>1</div>
+                <div>20</div>
+                <div>200</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>2</div>
+                <div>20</div>
+                <div>240</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>3</div>
+                <div>20</div>
+                <div>280</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>4</div>
+                <div>20</div>
+                <div>320</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>5</div>
+                <div>20</div>
+                <div>350</div>
+              </div>
+            </div>
+          </div> <!-- end addition card -->
+          <div class="addition"> <!-- addition card -->
+            <div>
+              Name: Blazing Dynamo
+              <br>Level Earned: FINAL
+              <br>Number of Strikes: 7
+            </div>
+            <div class="flextable">
+              <div class="flextablerow threecol">
+                <h2>Level</h2>
+                <h2>Spirit Points</h2>
+                <h2>Damage %</h2>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>1</div>
+                <div>100</div>
+                <div>250</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>2</div>
+                <div>110</div>
+                <div>300</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>3</div>
+                <div>120</div>
+                <div>350</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>4</div>
+                <div>130</div>
+                <div>450</div>
+              </div>
+              <div class="flextablerow flextablerowinfo threecol">
+                <div>5</div>
+                <div>140</div>
+                <div>450</div>
+              </div>
+            </div>
+          </div> <!-- end addition card -->
+
+        </div> <!-- end character card -->
+
+
+        <div> <!-- character card -->
+          <h1 style="background-color: green">LAVITZ/ALBERT</h1>
+            <div class="addition">
+              <div>
+                Name: Harpoon
+                <br>Level Earned: Initial
+                <br>Number of Strikes: 1
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>35</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>38</div>
+                  <div>110</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>42</div>
+                  <div>120</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>45</div>
+                  <div>130</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>50</div>
+                  <div>150</div>
+                </div>
+              </div>
+            </div>
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Spinning Cane
+                <br>Level Earned: 5
+                <br>Number of Strikes: 2
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>35</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>35</div>
+                  <div>125</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>35</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>35</div>
+                  <div>175</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>35</div>
+                  <div>200</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Rod Typhoon
+                <br>Level Earned: 7
+                <br>Number of Strikes: 4
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>30</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>45</div>
+                  <div>162</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>60</div>
+                  <div>174</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>75</div>
+                  <div>186</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>100</div>
+                  <div>202</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Gust of Wind Dance
+                <br>Level Earned: 11
+                <br>Number of Strikes: 6
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>35</div>
+                  <div>200</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>35</div>
+                  <div>240</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>35</div>
+                  <div>280</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>35</div>
+                  <div>320</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>35</div>
+                  <div>350</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Flower/Blossom Storm
+                <br>Level Earned: FINAL
+                <br>Number of Strikes: 7
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>60</div>
+                  <div>300</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>90</div>
+                  <div>324</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>120</div>
+                  <div>348</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>150</div>
+                  <div>372</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>202</div>
+                  <div>405</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+          </div> <!-- end character card -->
+
+          <div> <!-- character card -->
+            <h1 style="background-color: darkblue">ROSE</h1>
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Whip Smack
+                <br>Level Earned: Initial
+                <br>Number of Strikes: 1
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>35</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>35</div>
+                  <div>125</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>35</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>35</div>
+                  <div>175</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>35</div>
+                  <div>200</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: More and More
+                <br>Level Earned: 14
+                <br>Number of Strikes: 2
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>30</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>45</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>60</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>75</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>102</div>
+                  <div>150</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: More and More
+                <br>Level Earned: 14
+                <br>Number of Strikes: 2
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>30</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>45</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>60</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>75</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>102</div>
+                  <div>150</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Hard Blade
+                <br>Level Earned: 19
+                <br>Number of Strikes: 5
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>35</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>35</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>35</div>
+                  <div>200</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>35</div>
+                  <div>250</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>35</div>
+                  <div>300</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Demon's Dance
+                <br>Level Earned: FINAL
+                <br>Number of Strikes: 7
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>100</div>
+                  <div>200</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>100</div>
+                  <div>280</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>100</div>
+                  <div>360</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>100</div>
+                  <div>440</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>100</div>
+                  <div>500</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+          </div> <!-- end character card -->
+
+          <div class="character"> <!-- character card -->
+            <h1 style="background-color: blueviolet;">HASCHEL</h1>
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Double Punch
+                <br>Level Earned: Initial
+                <br>Number of Strikes: 1
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>35</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>38</div>
+                  <div>110</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>42</div>
+                  <div>120</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>45</div>
+                  <div>130</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>35</div>
+                  <div>150</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Flurry of Styx
+                <br>Level Earned: 14
+                <br>Number of Strikes: 2
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>20</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>20</div>
+                  <div>162</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>20</div>
+                  <div>174</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>20</div>
+                  <div>186</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>20</div>
+                  <div>202</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Summon 4 Gods
+                <br>Level Earned: 18
+                <br>Number of Strikes: 3
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>50</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>61</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>75</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>86</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>100</div>
+                  <div>100</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Five-Ring Shattering
+                <br>Level Earned: 22
+                <br>Number of Strikes: 4
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>35</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>35</div>
+                  <div>187</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>40</div>
+                  <div>225</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>45</div>
+                  <div>262</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>50</div>
+                  <div>300</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Hex Hammer
+                <br>Level Earned: 26
+                <br>Number of Strikes: 6
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>15</div>
+                  <div>200</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>15</div>
+                  <div>250</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>15</div>
+                  <div>300</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>14</div>
+                  <div>350</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>15</div>
+                  <div>400</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Omni Sweep
+                <br>Level Earned: FINAL
+                <br>Number of Strikes: 7
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>50</div>
+                  <div>300</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>75</div>
+                  <div>345</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>100</div>
+                  <div>390</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>125</div>
+                  <div>435</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>150</div>
+                  <div>501</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->            
+          </div> <!-- end character card -->
+          <div><!-- character card-->
+            <h1 style="background-color: aqua";>MERU</h1>
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Double Smack
+                <br>Level Earned: Initial
+                <br>Number of Strikes: 1
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>20</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>24</div>
+                  <div>110</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>28</div>
+                  <div>120</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>32</div>
+                  <div>130</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>34</div>
+                  <div>150</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Hammer Spin
+                <br>Level Earned: 21
+                <br>Number of Strikes: 3
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>35</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>43</div>
+                  <div>162</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>51</div>
+                  <div>174</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>59</div>
+                  <div>186</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>70</div>
+                  <div>202</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Cool Boogie
+                <br>Level Earned: 26
+                <br>Number of Strikes: 4
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>60</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>90</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>120</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>150</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>200</div>
+                  <div>100</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Cat's Cradle
+                <br>Level Earned: 30
+                <br>Number of Strikes: 6
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>20</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>20</div>
+                  <div>195</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>20</div>
+                  <div>240</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>20</div>
+                  <div>285</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>20</div>
+                  <div>351</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Perky Step
+                <br>Level Earned: FINAL
+                <br>Number of Strikes: 7
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>100</div>
+                  <div>200</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>100</div>
+                  <div>300</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>100</div>
+                  <div>300</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>100</div>
+                  <div>500</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>100</div>
+                  <div>600</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+          </div> <!-- end character card -->
+          <div><!-- character card-->
+            <h1 style="background-color: goldenrod";>KONGOL</h1>
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Pursuit
+                <br>Level Earned: Initial
+                <br>Number of Strikes: 1
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>35</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>38</div>
+                  <div>110</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>42</div>
+                  <div>120</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>45</div>
+                  <div>130</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>50</div>
+                  <div>150</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Inferno
+                <br>Level Earned: 23
+                <br>Number of Strikes: 3
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>20</div>
+                  <div>100</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>20</div>
+                  <div>125</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>20</div>
+                  <div>150</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>20</div>
+                  <div>175</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>20</div>
+                  <div>200</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->
+            <div class="addition"> <!-- addition card -->
+              <div>
+                Name: Bone Crush
+                <br>Level Earned: FINAL
+                <br>Number of Strikes: 7
+              </div>
+              <div class="flextable">
+                <div class="flextablerow threecol">
+                  <h2>Level</h2>
+                  <h2>Spirit Points</h2>
+                  <h2>Damage %</h2>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>1</div>
+                  <div>100</div>
+                  <div>200</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>2</div>
+                  <div>100</div>
+                  <div>220</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>3</div>
+                  <div>100</div>
+                  <div>240</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>4</div>
+                  <div>100</div>
+                  <div>260</div>
+                </div>
+                <div class="flextablerow flextablerowinfo threecol">
+                  <div>5</div>
+                  <div>100</div>
+                  <div>300</div>
+                </div>
+              </div>
+            </div> <!-- end addition card -->            
+          </div> <!-- end character card -->
+          <!-- endcontent -->
+          <br/>
+      </td>
+    </tr>
+  </table>
+
+  <!-- <footer></footer> -->
+
+  <script src="/main.js"></script>
+
+</body>
+
+</html>

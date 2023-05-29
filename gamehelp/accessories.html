@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- This site was ripped and slightly modified from thelegendofdragoon.net on
+      the Wayback Machine (https://web.archive.org/web/*/thelegendofdragoon.net).
+
+      I love The Legend of Dragoon and wish to keep this content alive. I am also
+      planning on a complete rework, making it modern and adding much more.
+      Rehosted by Lavitz Starlove of Starscape Digital (https://github.com/astralvitz/)
+
+      Visit the main fansite at https://thelegendofdragoon.org and the Discord server!
+    -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>The Legend of Dragoon: Endiness, the Land of Dragoons!</title>
+
+  <meta name="author" content="Lavitz Starlove of Starscape Digital">
+  <meta name="description" content="A hub of info for The Legend of Dragoon, ripped from thelegendofdragoon.net">
+  <meta name="keywords" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="twitter:title" content="">
+  <meta property="twitter:description" content="">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="shortcut icon" href="/assets/lilspirit.jpg" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body class="">
+  <!-- layout-start.ejs -->
+  <table border="0" cellpadding="0" cellspacing="0" width="900px" height="700px">
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="160px">
+        <img name="splitter0" src="/assets/splitter_1x1.jpg">
+      </td>
+      <td width="638px" height="160px">
+        <img name="splitter1" src="/assets/splitter_1x2.jpg">
+      </td>
+    </tr>
+
+    <tr>
+      <td rowspan="1" colspan="2" width="262px" height="72px">
+        <img name="splitter2" src="/assets/splitter_2x1.jpg" border="0">
+      </td>
+      <td width="638px" height="72px">
+        <img name="splitter3" src="/assets/splitter_2x2.jpg" border="0">
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="top">
+        <div id="sidenav" name="menuDiv" class="menudiv">
+          <img src="/assets/buttontop.jpg">
+          <div id="menu0" class="navitem"><img id="image0" src="/assets/introbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(0);MouseOver(this, 0);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 0);}else{menuActive=true;showMenu(0);MouseOver(this, 0);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 0);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu1" class="navitem"><img id="image1" src="/assets/storybutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(1);MouseOver(this, 1);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 1);}else{menuActive=true;showMenu(1);MouseOver(this, 1);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 1);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu2" class="navitem"><img id="image2" src="/assets/charactersbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(2);MouseOver(this, 2);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 2);}else{menuActive=true;showMenu(2);MouseOver(this, 2);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 2);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu3" class="navitem"><img id="image3" src="/assets/gamehelpbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(3);MouseOver(this, 3);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 3);}else{menuActive=true;showMenu(3);MouseOver(this, 3);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 3);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu4" class="navitem"><img id="image4" src="/assets/printablesbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(4);MouseOver(this, 4);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 4);}else{menuActive=true;showMenu(4);MouseOver(this, 4);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 4);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu5" class="navitem"><img id="image5" src="/assets/mediabutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(5);MouseOver(this, 5);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 5);}else{menuActive=true;showMenu(5);MouseOver(this, 5);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 5);}"></div>
+          <img src="/assets/spacer.jpg">
+          <div id="menu6" class="navitem"><img id="image6" src="/assets/etcbutton.jpg"
+              onmouseover="if(menuActive==true){showMenu(6);MouseOver(this, 6);}"
+              onclick="if(menuActive==true){menuActive=false;hideMenu();MouseOut(this, 6);}else{menuActive=true;showMenu(6);MouseOver(this, 6);}"
+              onmouseout="if(menuActive==true){MouseOut(this, 6);}"></div>
+          <div id="popNav" class="popnav" border="60" style="position:absolute"></div>
+          <img src="/assets/buttonbottom.jpg">
+        </div>
+      </td>
+      <td rowspan="1" colspan="1" width="82" height="468" valign="top">
+        <img name="splitter5" src="/assets/splitter_3x2.jpg" width="82" height="468" border="0">
+      </td>
+      <td rowspan="1" colspan="1" width="638" height="468"
+        background="/web/20150224163944im_/http://www.thelegendofdragoon.net:80/bg.jpg" valign="top">
+
+        <!-- content -->
+        <h1 id="title">Accessories</h1>
+        <p>There are many Accessories in the world of Endiness, each one containing a special power to aid your
+          characters. Most can be bought in Stores for some gold or found in treasure chests, but a few are very rare
+          and only given as Prizes. Here is a complete list of Accessories in alphabetical order:
+
+        <div class="flextable">
+          <div class="flextablerow twocol">
+            <h2>Name</h2>
+            <h2>Description</h2>
+          </div>
+          <div class="flextablerow flextablerowinfo threecol">
+            <div>Active Ring</div>
+            <div>Protects character from "Dispirit" abnormality</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Amulet</div>
+            <div>Doubles maximum MP</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Angel Scarf</div>
+            <div>Reduces damage from magic by 1/2</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Attack Badge</div>
+            <div>Raises Physical and Magical Powers</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Bandit's Ring</div>
+            <div>Increases agility by 20 points</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Blue Sea Stone</div>
+            <div>Damage from water-based attacks is cut by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Bracelet</div>
+            <div>Initial Accessory for all characters</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Bravery Amulet</div>
+            <div>Protects character from "Fear" abnormality</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Dancer's Ring</div>
+            <div>Increases agility by 20%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Darkness Stone</div>
+            <div>Damage from darkness-based attacks is cut by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Destone Amulet</div>
+            <div>Protects character from "Petrified" abnormality</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Dragon Shield</div>
+            <div>Damage from all physical attacks is cut by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Elude Cloak</div>
+            <div>Increases A-AV by 20 points</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Emerald Earrings</div>
+            <div>SP is gained when physically attacked</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Giganto Ring</div>
+            <div>Raises physical attack and defense power</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Golden Stone</div>
+            <div>Damage from earth-based attacks is cut by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Guard Badge</div>
+            <div>Raises physical and magical defense power</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Holy Ankh</div>
+            <div>Revives from dead with given probability</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Jade Stone</div>
+            <div>Damage from wind-based attacks are cut by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Knight Shield</div>
+            <div>Raises defense power slightly</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Magic Ego Bell</div>
+            <div>Protects character from "Bewitchment" abnormality</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Magic Ring</div>
+            <div>MP is gained with each turn</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Magical Ring</div>
+            <div>Raises magical attacking power</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Panic Guard</div>
+            <div>Protects character from "Confusion" abnormality</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Phantom Shield</div>
+            <div>Reduces damage from all attacks by 50% for all party members</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Physical Ring</div>
+            <div>Raises max HP by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Platinum Collar</div>
+            <div>SP is gained when physically attacked</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Poison Guard</div>
+            <div>Protects character from "Poison" abnormality</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Power Wrist</div>
+            <div>Raises attack power slightly</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Protector</div>
+            <div>Protects character from "Weapon Blocked" abnormality</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Rainbow Earrings</div>
+            <div>Protects character from all abnormalities</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Red Eye Stone</div>
+            <div>Damage from fire-based attacks is cut by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Ruby Ring</div>
+            <div>SP is gained when magically attacked</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Sage's Cloak</div>
+            <div>Increases M-AV and A-AV by 20 points</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Sapphire Pin</div>
+            <div>MP is gained when magically attacked</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Silver Stone</div>
+            <div>Damage from light-based attacks is cut by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Spirit Cloak</div>
+            <div>Increases M-AV by 20 points</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Spirit Ring</div>
+            <div>SP is gained with each turn</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Spiritual Ring</div>
+            <div>Raises Magic Defense</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Stun Guard</div>
+            <div>Protects character from "Stun" abnormality</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Talisman</div>
+            <div>Protects character from instant death</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Therapy Ring</div>
+            <div>HP is recovered with each turn</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Ultimate Wargod</div>
+            <div>Additions are 100% completed automatically </div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Vanishing Stone</div>
+            <div>Gives access to Faust</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Violet Stone</div>
+            <div>Damage from thunder-based attacks is cut by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Wargod's Amulet</div>
+            <div>Increases hit rate for attacking all by 20%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Wargod Calling</div>
+            <div>Additions are 100% completed automatically, but SP gained is cut by 50%</div>
+          </div>
+          <div class="flextablerow flextablerowinfo twocol">
+            <div>Wargod's Sash</div>
+            <div>Raises SP by 50%</div>
+          </div>
+  </table>
+  <!-- endcontent -->
+  </td>
+  </tr>
+  </table>
+
+  <footer></footer>
+
+  <script src="/main.js"></script>
+
+</body>
+
+</html>
